@@ -1,0 +1,11 @@
+TO GIVE ALL PERMISSION:
+grant all on employee.* to 'noble';
+
+TO REVOKE ALL PERMISSION:
+revoke all on employee.* to 'noble';
+
+TO GIVE INSERT/DELETE... PERMISSIONS
+grant insert on employee.* to 'noble';
+
+TO GIVE PERMISSION TO NEW USER FOR ANOTHER USER TO GIVE ACCESS:
+grant all on employee.* to 'noble' with grant option;
